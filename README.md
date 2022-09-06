@@ -14,7 +14,7 @@ WHEN I answer a question incorrectly
 THEN time is subtracted from the clock
     //if-else statement has to be made.
     //if answer is wrong, subtraction of the timer will be taken
-    //if anser is correct timer continues as normal
+    //if anwser is correct timer continues as normal
 
 
 WHEN all questions are answered or the timer reaches 0
