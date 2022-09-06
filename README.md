@@ -1,5 +1,4 @@
-<!-- # Code-Quiz -->
-<!-- 
+# Code-Quiz live link: https://marianellag1.github.io/Code-Quiz/
 GIVEN I am taking a code quiz:
 
 WHEN I click the start button
@@ -27,5 +26,4 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score 
     user is shown score, as well as insert initials to collect score and keep record, for next game
--->
 
