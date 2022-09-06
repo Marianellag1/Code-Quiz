@@ -1,6 +1,7 @@
-*{
-    box-sizing: border-box;
-
+body {
+    padding: 150px;
+    background-color: lightblue;
+    text-align: center;
 }
 
 .Quiz h1{
