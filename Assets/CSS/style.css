@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+
+}
+
+.Quiz h1{
+    text-align: center;
+    color: blue;
+    height:35px;
+}
+
+#Rules{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    padding: 18px 75px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
