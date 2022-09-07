@@ -10,31 +10,44 @@
 </head>
 
 <body>
+    <!-- <div class="scores"><a href="highscores.html"></a>View Highscores</div> -->
     <div class="quiz-timer" style="text-align:right;">Time: 50 second(s) left</div>
-    <div id="Rules" class="Quiz">
-        <h1>Coding Quiz</h1>
+    <div class="wrapper">
+        <div id="start-screen" class="start">
 
-        <h2>Welcome to my Coding Bootcamp Challenge</h2>
+            <h1>Coding Quiz</h1>
 
-        <p>This game contains 5 multiple choice questions.</p>
-        All 5 questions must be answered within the given time.
-        Any question that is answered incorrectly, will have 10 seconds(points) deducted!.
-        <p>The time itself are the points in which you'll earn if some or all questions are answered are correctly.</p>
+            <h2>Welcome to my Coding Bootcamp Challenge</h2>
 
-        <h3>Please click start when you're ready.</h3>
+            <p>This game contains 5 multiple choice questions.</p>
+            You are given 50 seconds to finish the quiz.
+            Any question that is answered incorrectly, will have 10 seconds(points) deducted!.
+            <p>The time itself are the points in which you'll earn if some or all questions are answered are correctly.
+            </p>
 
-        <button id=start-button class="btn">Start Quiz</button>
+            <h3>Please click start when you're ready.</h3>
+
+            <button id=start-button class="btn">Start Quiz</button>
+
+        </div>
+        <div id="questions" class="hide">
+            <h2 id="question-title"></h2>
+            <div id="choices" class="choices"></div>
+        </div>
+
+
+        <!-- <div id="end-screen" class="hide">
+            <h2>All Done!</h2>
+            <p>Your score is: <span id="final-score"></span></p>
+            <p>Enter Initials: <input type="text" id="initials" max="3">
+                <button id="=submit">Submit</button>
+
+            </p>
+        </div> -->
     </div>
-
-    <div id="quiz" class="hide">
-        <h2 id="question-title"></h2>
-        <div id="answer-choices" class="choices"></div>
-    </div>
-
-
-    <div id="score-results"></div>
 
     <script src="./jscript.js"></script>
+    <script src="./questions.js"></script>
 </body>
 
 </html>
