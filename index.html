@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Code Quiz</title>
+    <title>Coding Quiz</title>
     <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-    <div class="quiz-timer" style="text-align:right;">Time: 75</div>
+    <div class="quiz-timer" style="text-align:right;">Time: 50 second(s) left</div>
     <div id="Rules" class="Quiz">
         <h1>Coding Quiz</h1>
 
@@ -18,15 +18,18 @@
 
         <p>This game contains 5 multiple choice questions.</p>
         All 5 questions must be answered within the given time.
-        Any question that is answered incorrectly, deducts time from the timer.
+        Any question that is answered incorrectly, will have 10 seconds(points) deducted!.
         <p>The time itself are the points in which you'll earn if some or all questions are answered are correctly.</p>
 
         <h3>Please click start when you're ready.</h3>
-        
-        <button id=start-button>Start Quiz</button>
+
+        <button id=start-button class="btn">Start Quiz</button>
     </div>
 
-    <div id="quiz"></div>
+    <div id="quiz" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="answer-choices" class="choices"></div>
+    </div>
 
 
     <div id="score-results"></div>
