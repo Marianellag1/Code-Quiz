@@ -1,6 +1,5 @@
 # Code-Quiz live link: https://marianellag1.github.io/Code-Quiz/
 GIVEN I am taking a code quiz:
-
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
     //when the user clicks start quiz and timer should start counting down
