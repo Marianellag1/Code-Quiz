@@ -30,3 +30,4 @@ WHEN the game is over
 THEN I can save my initials and my score 
     user is shown score, as well as insert initials to collect score and keep record, for next game
 
+![Screenshot 2022-09-06 225826](https://user-images.githubusercontent.com/110939445/188785754-584c8592-22c2-48bb-bb7f-f624cdd907a8.png)
