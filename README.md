@@ -9,7 +9,12 @@ THEN a timer starts and I am presented with a question
 WHEN I answer a question
 THEN I am presented with another question
     //Questions will be made one after the other, all adding up whether right or wrong until final score at the end
-
+        //My questions:
+        // When data is stored in a single variable, it's called a(n): array  can choose: boolean-list-object
+        // HTML gives structure to the page, CSS adds style to the page, while JavaScript gives... interaction ... to the page... Github,Heading, Class
+        //When writing code, all should end with... ;... /,?, ^
+        //A variable declared in global scope is available to ...all... function(s) , some , none, one
+        //DOM stands for... Document Object Model... Doughnuts on Monday, Don't Open Meeting, Drove On Mars
 WHEN I answer a question incorrectly
 THEN time is subtracted from the clock
     //if-else statement has to be made.
