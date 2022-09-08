@@ -10,6 +10,7 @@ WHEN I answer a question
 THEN I am presented with another question
     //answers if right or wrong should show when user clicks on an answer
     //Questions will be made one after the other, all adding up whether right or wrong until final score at the end
+    //questions are made in an array, for loop would be done.
         //My questions:
         // When data is stored in a single variable, it's called a(n): array  can choose: boolean-list-object
         // HTML gives structure to the page, CSS adds style to the page, while JavaScript gives... interaction ... to the page... Github,Heading, Class
